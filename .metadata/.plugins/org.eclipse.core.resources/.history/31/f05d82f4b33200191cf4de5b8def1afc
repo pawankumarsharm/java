@@ -1,0 +1,11 @@
+import java.util.*;
+class Demo {
+
+	public static void main(String[] args) {
+	int j=20;
+   // B a1=new B();
+    System.out.println(B.i);
+    System.out.println(j);
+	}
+
+}

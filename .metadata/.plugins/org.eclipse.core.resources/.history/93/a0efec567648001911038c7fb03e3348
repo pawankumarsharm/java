@@ -1,0 +1,33 @@
+import java.util.*;
+public class ArmsDemo {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		int m,n,i,c=0,tem,rim,arm=0;
+//		System.out.println("Enter the two no.");
+//		m=s.nextInt();
+//		n=s.nextInt();
+		for(i=100;i<200;i++) {
+			//System.out.println(i);
+			tem=i;
+			/*for(;i!=0;i=i/10) {
+				rim=i%10;
+				arm=arm+(rim*rim*rim);
+			}*/
+			while(i!=0) {
+				rim=i%10;
+				arm=arm+(rim*rim*rim);
+				i=i/10;
+				
+			}
+			if(i==tem) {
+				System.out.print(i+" ");
+				c++;
+			}
+		}
+		System.out.println();
+		System.out.println("count ="+c);
+
+	}
+
+}

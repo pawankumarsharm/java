@@ -1,0 +1,28 @@
+package String;
+
+import java.util.Scanner;
+
+public class Add__two_matrix_element {
+int[][] readmat()
+{
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter the no. of rows and no. of column");
+	int row=sc.nextInt();
+	int col=sc.nextInt();
+	
+	int mat[][]=new int [row][col];
+	System.out.println("enter"+row*col+"elements");
+	for(int i=0;i<mat.length;i++)
+	{
+		for(int j=0;j<mat[i].length;j++)
+		{
+			mat[i][j]=sc.nextInt();
+			}
+}
+	return mat;
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

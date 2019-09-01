@@ -1,0 +1,2 @@
+int pincode;
+		void setter()

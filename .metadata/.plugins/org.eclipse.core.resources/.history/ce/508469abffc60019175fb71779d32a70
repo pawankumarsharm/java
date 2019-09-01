@@ -1,0 +1,23 @@
+package interviewprograme;
+
+public class countcharacterinstring {
+
+	public static void main(String[] args) {
+	String s="pawan kumar";
+	int a[]=new int[26];
+	for (int i = 0; i < s.length(); i++) {
+		if(s.charAt(i)>=65 && s.charAt(i)<=90)
+			a[s.charAt(i)-65]++;
+		//else if(s.charAt(i)>=97 && s.charAt(i)<=122)
+		//	a[s.charAt(i)-97]++;
+	}
+		for (int i = 0; i < 26; i++) {
+			if(a[i]!=0)
+				System.out.println((char)(i+65)+" "+a[i]);
+			
+		}
+	}
+
+	}
+
+

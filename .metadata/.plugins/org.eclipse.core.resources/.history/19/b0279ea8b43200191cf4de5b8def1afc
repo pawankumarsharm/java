@@ -1,0 +1,6 @@
+
+public class B {
+	public int i=10;
+	int j=20;
+
+}

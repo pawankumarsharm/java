@@ -1,0 +1,14 @@
+
+public class psuedocode2 {
+	
+	public static void main(String[] args) {
+		int a=0;
+		for(int i=1;i<2;i++) {
+			
+		
+ a=99;
+		System.out.println(a);
+	}
+		System.out.println(a);
+}
+}

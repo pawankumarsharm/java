@@ -1,0 +1,17 @@
+
+public class Alphabet {
+
+	public static void main(String[] args) {
+		char c,d;
+		for(c='A';c<='Z';c++) {
+			System.out.print(c+" ");
+			c=c+1;
+			
+		}
+		System.out.println();
+		for (d ='B';d<='Z';d+=2) {
+			System.out.print(d+" ");
+		}
+	}
+
+}

@@ -1,0 +1,22 @@
+package Array;
+
+import java.util.Scanner;
+
+public class sumofsquareofdigits {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the number");//76890=5//0=1//0123=3...left 0 is not valuable.
+		int n=sc.nextInt();
+		int pro=0;
+		while(n!=0)
+		{
+			int r=n%10;
+			pro=pro+r*r;
+			n=n/10;
+			
+		}
+		System.out.println("sum of square of digits:"+pro);
+	}
+
+}

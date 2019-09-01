@@ -1,0 +1,18 @@
+package interviewprograme;
+
+public class findmissingnumber {
+
+	public static void main(String[] args) {
+		int missing=0,sum=0,miss;
+		int ar[]= {1,2,3,4,5,0};///ar[]={2,4,6,0,10}
+		for (int i = 0; i <= ar.length; i++) {
+			sum=sum+i;//sum=sum+i*2;
+		}
+		for (int i = 0; i < ar.length; i++) {
+			missing=missing+ar[i];
+		}
+		miss=sum-missing;
+		System.out.println(miss);//6//8
+		}
+
+}

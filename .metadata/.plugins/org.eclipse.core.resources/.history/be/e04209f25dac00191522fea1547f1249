@@ -1,0 +1,24 @@
+package Array;
+
+import java.util.Scanner;
+
+public class primeornot {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the number");
+		int n=sc.nextInt();
+		int i=1,t=n,count=0;
+		while(i<=n/2)
+		{
+			if(n%i==0)
+				count++;
+			i++;	
+		}
+		if(i==t)
+		System.out.println("number is prime");
+		else
+			System.out.println("number is not prime");
+	}
+
+}

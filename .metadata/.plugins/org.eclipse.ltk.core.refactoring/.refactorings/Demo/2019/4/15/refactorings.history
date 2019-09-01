@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Array.ArrayNegativePositiveCount&apos; to &apos;ArrayEvenOddCount&apos;&#x0D;&#x0A;- Original project: &apos;Demo&apos;&#x0D;&#x0A;- Original element: &apos;Array.ArrayNegativePositiveCount&apos;&#x0D;&#x0A;- Renamed element: &apos;Array.ArrayEvenOddCount&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ArrayNegativePositiveCount&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Array{ArrayNegativePositiveCount.java[ArrayNegativePositiveCount" matchStrategy="1" name="ArrayEvenOddCount" qualified="false" references="true" similarDeclarations="false" stamp="1554793814560" textual="false" version="1.0"/>
+</session>

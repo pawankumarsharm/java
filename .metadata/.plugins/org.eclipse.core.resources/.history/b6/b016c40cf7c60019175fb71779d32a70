@@ -1,0 +1,27 @@
+package interviewprograme;
+
+public class segregateevenodd {
+
+	public static void main(String[] args) {
+		int arr[]= {12,34,45,9,8,90,3};
+		int l=0,r=arr.length-1;
+		while(l<r)
+		{
+			while(arr[l]%2==1&&l<r)
+				l++;
+			while(arr[r]%2==0&&l<r)
+				r--;
+			if(l<r)
+			{
+				int temp=arr[l];
+				arr[l]=arr[r];
+				arr[r]=temp;
+			}
+		}
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(arr[i]+" ");
+			
+		}
+	}
+
+}

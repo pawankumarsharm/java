@@ -1,0 +1,15 @@
+
+public class psuedocode2 {
+	public static void main(String[] args) {
+		byte by=10;
+switch(by+118)	{
+			
+		//System.out.println("IF");
+		default:System.out.println("DEF");
+	
+		//System.out.println("ELSE");
+		//case 10:System.out.println("TEN");
+		//case 128:System.out.println("ZERO");
+	}
+}
+}

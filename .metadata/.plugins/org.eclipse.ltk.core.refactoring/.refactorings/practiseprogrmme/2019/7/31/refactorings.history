@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Array2.takeinputfromuser&apos; to &apos;TakeInputFromUserAndSum&apos;&#x0D;&#x0A;- Original project: &apos;practiseprogrmme&apos;&#x0D;&#x0A;- Original element: &apos;Array2.takeinputfromuser&apos;&#x0D;&#x0A;- Renamed element: &apos;Array2.TakeInputFromUserAndSum&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;takeinputfromuser&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Array2{takeinputfromuser.java[takeinputfromuser" matchStrategy="1" name="TakeInputFromUserAndSum" qualified="false" references="true" similarDeclarations="false" stamp="1564560849233" textual="false" version="1.0"/>
+</session>

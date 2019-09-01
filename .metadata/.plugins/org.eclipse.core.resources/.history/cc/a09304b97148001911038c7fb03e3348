@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class Armstrongmton {
+
+	public static void main(String[] args) {
+     Scanner sc=new Scanner(System.in);
+     int count=0;
+     System.out.println("enter the range");
+     int m=sc.nextInt();
+     int n=sc.nextInt();
+    	 int rs=isarmstrong(m,n);
+    	 if(rs==0)
+    		System.out.println(n+"is armstrong");
+    	 else
+    		 System.out.println(n+"is not a armstrong");
+     }
+     
+ static int isarmstrong(int m,int n)
+ {
+	int sum=0,count=0,b;
+	//System.out.println("armstrtong no. from m to n");
+	for(int i=m;i<=n;i++)
+	{
+		n=i;
+		while(n>0)
+		{
+			b=n%10;
+			sum=sum+(b*b*b);
+			n=n/10;
+		}
+	}return sum;
+		
+	
+	
+ }
+}

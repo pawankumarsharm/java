@@ -1,0 +1,80 @@
+package String;
+
+import java.util.Scanner;
+
+public class Add__two_matrix_element {
+int[][] readmat()
+{
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter the no. of rows and no. of column");
+	int row=sc.nextInt();
+	int col=sc.nextInt();
+	
+	int mat[][]=new int [row][col];
+	System.out.println("enter"+row*col+"elements");
+	for(int i=0;i<mat.length;i++)
+	{
+		for(int j=0;j<mat[i].length;j++)
+		{
+			mat[i][j]=sc.nextInt();
+			}
+}
+	return mat;
+}
+void dispmat(int[][] mat)
+{
+	for(int i=0;i<mat.length;i++)
+	{
+		for(int j=0;j<mat[i].length;j++)
+		{
+			System.out.print(mat[i][j]+"");
+		}
+		System.out.println();
+}
+}
+int[][] addmat(int x[][],int[][] y)
+{
+	if(x.length!=y.length||x[0].length!=y[0].length)
+	{
+		System.out.println("not possible to add");
+	}
+		return null;
+	}
+int sum[][]=new int[x.length][x[0].length];
+for(int i=0;i<x.length;i++)
+{
+	for(int j=0;j<x[i].length;j++)
+	{
+		sum[i][j]=x[i][j]+y[i][j];
+	}
+}
+return sum;
+}
+
+
+	public static void main(String[] args) {
+		Add__two_matrix_element mt=new Add__two_matrix_element();
+		System.out.println("read 1st matrix:");
+		int a[][]=mt.readmat();
+		System.out.println("read 2nd matrix:");
+		int b[][]=mt.readmat();
+		System.out.println("user entered 1st matrix:");
+		mt.dispmat(a);
+		System.out.println("user entered 2nd matrix:");
+		mt.dispmat(b);
+		int c[][]=mt.addmat(a, b);
+		if(c==null)
+		{
+			System.out.println("addition failed");
+		}
+			else
+			{
+				System.out.println("added matrix is:");
+				mt.dispmat(c);
+			}
+		}
+			
+	}
+
+}
+}
